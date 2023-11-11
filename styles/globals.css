@@ -1,0 +1,68 @@
+/* styles.css */
+.about-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.about-container h1 {
+  color: #3498db; /* Aesthetic blue color */
+}
+
+.about-container p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+.profile-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-container h1 {
+  color: #3498db; /* Aesthetic blue color */
+}
+
+.profile-container div {
+  margin-bottom: 10px;
+}
+
+.profile-container strong {
+  font-weight: bold;
+}
+
+/* Navbar styles (similar to the previous styles) */
+.navbar {
+  background-color: #3498db; /* Aesthetic blue color */
+  padding: 10px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  font-size: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #ecf0f1; /* Lighter color on hover */
+}
